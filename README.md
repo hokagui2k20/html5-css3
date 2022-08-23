@@ -3,4 +3,4 @@
 
 KATCHAU!!!!!!!!!
 
-<a href="https://github.com/hokagui2k20/html5-css3/atividades/ex017/fonte01.html"> Executar o Exercicio 017
+<a href="https://github.com/hokagui2k20/html5-css3/tree/main/atividades/ex017/fonte01.html"> Executar o Exercicio 017
