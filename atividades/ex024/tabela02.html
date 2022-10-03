@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 400px;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        col.cnome{
+            background-color: aqua;
+        }
+
+        col.cgrup{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrup" span="2">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissao</th>
+        </tr>
+        <tr>
+            <td>Maria Jose</td>
+            <td>F</td>
+            <td>24</td>
+            <td>Frentista</td>
+        </tr>
+        <tr>
+            <td>Gol D. Roger</td>
+            <td>M</td>
+            <td>53</td>
+            <td>Pirata</td>
+        </tr>
+        <tr>
+            <td>Sidoka</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Trapper</td>
+        </tr>
+        <tr>
+            <td>Ragnar</td>
+            <td>56</td>
+            <td>M</td>
+            <td>Viking</td>
+        </tr>
+        <tr>
+            <td>Wade Willson</td>
+            <td>30</td>
+            <td>M</td>
+            <td>Mercenario</td>
+        </tr>
+        <tr>
+            <td>Carol Danvers</td>
+            <td>32</td>
+            <td>F</td>
+            <td>Heroina</td>
+        </tr>
+    </table>
+</body>
+</html>
